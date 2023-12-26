@@ -8,7 +8,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="bg-black bg-opacity-75 py-6 text-gray-400">
-      <div className="container relative mx-auto flex items-center justify-between">
+      <div className="container relative flex items-center justify-between lg:mx-auto">
         {/* Logo */}
         <Link href="/" className="ml-6 lg:m-0">
           quiz.maker.ai
@@ -58,15 +58,15 @@ const Header: React.FC = () => {
           {openMenu ? (
             <Image
               src="/close.svg"
-              width={10}
-              height={10}
+              width={20}
+              height={20}
               alt="Open menu"
             ></Image>
           ) : (
             <Image
               src="/menu.svg"
-              width={10}
-              height={10}
+              width={20}
+              height={20}
               alt="Close menu"
             ></Image>
           )}
