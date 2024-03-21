@@ -40,7 +40,7 @@ const SettingsForm: React.FC = () => {
             name="difficulty"
             value={formData.difficulty}
             onChange={handleChange}
-            className="w-full cursor-pointer border-b border-t border-b-gray-800 border-t-gray-800 bg-transparent px-1.5 py-4 text-xs text-gray-300 outline-none transition-all hover:border-b-gray-500 hover:border-t-gray-500"
+            className="w-full cursor-pointer appearance-none border-b border-t border-b-gray-800 border-t-gray-800 bg-transparent px-1.5 py-4 text-xs text-gray-300 outline-none transition-all hover:border-b-gray-500 hover:border-t-gray-500"
           >
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
@@ -59,7 +59,7 @@ const SettingsForm: React.FC = () => {
             name="language"
             value={formData.language}
             onChange={handleChange}
-            className="w-full cursor-pointer border-b border-t border-b-gray-800 border-t-gray-800 bg-transparent px-1.5 py-4 text-xs text-gray-300 outline-none transition-all hover:border-b-gray-500 hover:border-t-gray-500"
+            className="w-full cursor-pointer appearance-none border-b border-t border-b-gray-800 border-t-gray-800 bg-transparent px-1.5 py-4 text-xs text-gray-300 outline-none transition-all hover:border-b-gray-500 hover:border-t-gray-500"
           >
             <option value="python">Python</option>
             <option value="java">Java</option>
