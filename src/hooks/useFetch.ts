@@ -12,6 +12,7 @@ export const useFetch = <T>(
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
+      /*
       try {
         const response = await axios.post(url, payload);
 
@@ -22,6 +23,7 @@ export const useFetch = <T>(
         }
       }
       setLoading(false);
+      */
     }
 
     fetchData();

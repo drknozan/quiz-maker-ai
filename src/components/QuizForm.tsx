@@ -49,7 +49,7 @@ const Quiz = () => {
     data: questions,
     loading,
     error,
-  } = useFetch<Question[]>('/quiz/api', payload);
+  } = useFetch<Question[]>('/api/quiz', payload);
 
   const shuffledQuestions = useMemo(
     () =>

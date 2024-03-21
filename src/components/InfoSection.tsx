@@ -21,7 +21,7 @@ const InfoSection = () => {
       </motion.h1>
       <div className="mx-6 grid gap-4 p-4 md:container md:mx-auto md:grid-cols-2 lg:grid-cols-4">
         <motion.div
-          className="bg-opacity-85 height-auto  flex flex-col rounded-xl border border-gray-800 bg-black p-6"
+          className="height-auto  flex flex-col rounded-xl border border-gray-800 bg-black p-6"
           initial={{ opacity: 0, y: 70 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
@@ -37,7 +37,7 @@ const InfoSection = () => {
           </p>
         </motion.div>
         <motion.div
-          className="bg-opacity-85 height-auto  flex flex-col rounded-xl border border-gray-800 bg-black p-6"
+          className="height-auto  flex flex-col rounded-xl border border-gray-800 bg-black p-6"
           initial={{ opacity: 0, y: 70 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
@@ -53,7 +53,7 @@ const InfoSection = () => {
           </p>
         </motion.div>
         <motion.div
-          className="bg-opacity-85 height-auto  flex flex-col rounded-xl border border-gray-800 bg-black p-6"
+          className="height-auto  flex flex-col rounded-xl border border-gray-800 bg-black p-6"
           initial={{ opacity: 0, y: 70 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
@@ -68,7 +68,7 @@ const InfoSection = () => {
           </p>
         </motion.div>
         <motion.div
-          className="bg-opacity-85 height-auto  flex flex-col rounded-xl border border-gray-800 bg-black p-6"
+          className="height-auto  flex flex-col rounded-xl border border-gray-800 bg-black p-6"
           initial={{ opacity: 0, y: 70 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
