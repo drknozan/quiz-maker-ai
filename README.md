@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🦾 Quiz Maker AI
 
-## Getting Started
+> **This is my hobby project built with Next.js and GPT-3.5 Turbo API. Take your coding skills to the next level on this platform where you can create quizzes of all levels. Choose the programming language you are interested in and GPT will create your questions in seconds.**
 
-First, run the development server:
+## 🛠️ Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js
+- TailwindCSS
+- Framer Motion
+- Axios
+- ESLint
+- Prettier
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚡️ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- There is support for many programming languages. You can choose the programming language you want to learn or improve yourself in from the list.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- You can choose the one that suits you best among three different difficulties. AI will prepare questions according to the difficulty level you choose.
 
-## Learn More
+- You will be expected to examine the questions given to you within the specified time and give correct answers.
 
-To learn more about Next.js, take a look at the following resources:
+- You can review your answers after the quiz is over. You will be presented with correct answers and explanations to the questions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Preview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![ss1](https://github.com/drknozan/quiz-maker-ai/assets/73464481/e6a1baf1-d183-4a4f-9bf8-3e73191709b5)
 
-## Deploy on Vercel
+![ss2](https://github.com/drknozan/quiz-maker-ai/assets/73464481/294a51cd-daa4-4461-a9c6-69544a722fb2)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
