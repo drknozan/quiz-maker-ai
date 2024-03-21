@@ -1,8 +1,9 @@
 'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const ProgressLine: React.FC = () => {
+const ProgressLine = () => {
   return (
     <div className=" rounded-xl bg-black bg-opacity-80 px-2 py-4 text-xs shadow-2xl lg:px-8 lg:py-10 lg:text-base">
       <motion.svg
