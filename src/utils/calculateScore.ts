@@ -13,7 +13,7 @@ export const calculateScore = (
 
     if (userAnswer) {
       if (userAnswer.answer === question.answer) {
-        score += 10;
+        score += 20;
       }
     }
   });

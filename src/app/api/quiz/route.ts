@@ -27,7 +27,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Not valid input' }, { status: 400 });
   }
 
-  const prompt = `Create a quiz with 10 questions about ${language} programming language, ${difficulty} difficulty. You should return JSON object with key 'questions' which is array of question object. Under the 'questions' key, for each question, provide a JSON object with four keys: 'question', 'options', 'explanation', 'answer'. Under the 'options' key, include an array of four options. Always place the correct answer at index 0 within the 'answers' array. Avoid using letters (A, B, C, D or 1, 2, 3, 4) to label the options. Give the correct answer as a value of 'answer' key. Focus on providing clear explanations for the correct answer under the 'explanation' key. Ensure that the explanations do not explicitly indicate which option is correct.`;
+  const prompt = `Create a quiz with 5 questions about ${language} programming language, ${difficulty} difficulty. You should return JSON object with key 'questions' which is array of question object. Under the 'questions' key, for each question, provide a JSON object with four keys: 'question', 'options', 'explanation', 'answer'. Under the 'options' key, include an array of four options. Always place the correct answer at index 0 within the 'answers' array. Avoid using letters (A, B, C, D or 1, 2, 3, 4) to label the options. Give the correct answer as a value of 'answer' key. Focus on providing clear explanations for the correct answer under the 'explanation' key. Ensure that the explanations do not explicitly indicate which option is correct.`;
 
   const payload = {
     model: 'gpt-3.5-turbo',
