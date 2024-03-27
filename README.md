@@ -27,4 +27,17 @@
 
 ![ss2](https://github.com/drknozan/quiz-maker-ai/assets/73464481/294a51cd-daa4-4461-a9c6-69544a722fb2)
 
+<img width="1440" alt="ss-3" src="https://github.com/drknozan/quiz-maker-ai/assets/73464481/01cd9226-5940-4c3e-83b5-d27f43e7113b">
+
+<img width="1440" alt="ss-4" src="https://github.com/drknozan/quiz-maker-ai/assets/73464481/88c8347c-733e-4ca4-bea5-b56f1a401099">
+
+<img width="1440" alt="ss-5" src="https://github.com/drknozan/quiz-maker-ai/assets/73464481/d9305033-c408-475d-a281-a8c86eb5c10f">
+
+<img width="1440" alt="ss-6" src="https://github.com/drknozan/quiz-maker-ai/assets/73464481/2b07bd52-8ff0-47eb-b488-961fa8861dc2">
+
+<img width="319" alt="m-ss-1" src="https://github.com/drknozan/quiz-maker-ai/assets/73464481/2abe8ff4-04e5-43d8-a9c9-c48c5ed4fc08">
+
+<img width="319" alt="m-ss-2" src="https://github.com/drknozan/quiz-maker-ai/assets/73464481/75a08d15-03e5-4f8b-8931-3657a8ebee2b">
+
+<img width="319" alt="m-ss-3" src="https://github.com/drknozan/quiz-maker-ai/assets/73464481/c009ed76-fae7-4890-84a1-70a78e1086ff">
 
