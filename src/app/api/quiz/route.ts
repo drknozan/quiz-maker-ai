@@ -45,7 +45,7 @@ export async function POST(req: Request) {
       },
       method: 'POST',
       body: JSON.stringify(payload),
-      next: { revalidate: 5 },
+      next: { revalidate: 300 },
     });
 
     const data = await res.json();
