@@ -10,9 +10,9 @@ import { motion } from 'framer-motion';
 
 const InfoSection = () => {
   return (
-    <div id="about" className="border-b border-gray-800 p-20">
+    <div id="about" className="border-b border-gray-800 p-6 md:p-20">
       <motion.h1
-        className="mb-16 text-center text-xl font-bold text-gray-100 lg:text-5xl"
+        className="my-4 text-center text-2xl font-bold text-gray-100 md:mb-16 lg:text-5xl"
         initial={{ opacity: 0, y: 70 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}

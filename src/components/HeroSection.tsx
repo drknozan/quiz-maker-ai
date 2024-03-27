@@ -9,12 +9,12 @@ const HeroSection = () => {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen bg-[url('/bg-secondary.jpeg')] bg-cover bg-fixed bg-center">
-      <div className="min-h-screen backdrop-blur-md">
+    <div className="min-h-[calc(100vh-64px)] bg-[url('/bg-secondary.jpeg')] bg-cover bg-fixed bg-center">
+      <div className="flex min-h-[calc(100vh-64px)] items-center justify-center gap-8 backdrop-blur-md">
         <section className="mx-4 flex flex-col lg:container lg:mx-auto lg:h-[calc(100vh-64px)] lg:flex-row lg:items-center lg:space-x-2">
           <div className="mt-4 flex flex-col items-center space-y-6 lg:mt-0 lg:w-1/2 lg:items-start lg:space-y-10">
             <motion.div
-              className="text-center text-xl font-bold text-gray-100 lg:text-left lg:text-5xl"
+              className="mb-8 text-center text-2xl font-bold text-gray-100 lg:mb-0 lg:text-left lg:text-5xl"
               initial={{ opacity: 0, x: -75 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
